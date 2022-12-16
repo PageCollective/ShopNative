@@ -1,7 +1,7 @@
 
 # ShopNative
 
-*Working on it right now.*
+*Some details for B*
 
 <br>
 <br>
