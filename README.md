@@ -34,16 +34,28 @@
 
 ## Steps
 
--   Export shop data from **[Google Sheets]** to YAML
+-   [ ] Export shop data from **[Google Sheets]** to YAML
 
--   Generic project setup
+-   [ ] Generic project setup
 
--   Write server-side renderer to improve loading speed
+-   [ ] Write server-side renderer to improve loading speed
 
--   Add workflow to automatically rebuild page when B edits the list of shops
+-   [ ] Add workflow to automatically rebuild page when B edits the list of shops
 
 <br>
+<br>
 
+## Technologies
+
+*Things used to build this website.*
+
+- GitHub Pages
+
+- Deno for server-side rendering
+
+- Fuse.js for offline searching
+
+<br>
 
 
 [Google Sheets]: https://docs.google.com/spreadsheets/d/1Go9xe5ARV3RxBqasRi2CJ6dHLSG5Uyf8gZ1Tuy8P0Dc/edit#gid=0
