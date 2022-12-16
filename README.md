@@ -17,8 +17,17 @@
     - In their own organization
     
     - On their own account
-    
 
+<br>
+<br>
+
+## Page Requirements
+
+-   Simple & fast overview of native shops
+
+-   Easy way for B to edit the list of shops
+
+-   ( Optional ) Add offline search functionality
 
 <br>
 <br>
@@ -27,7 +36,13 @@
 
 -   Export shop data from **[Google Sheets]** to YAML
 
--   
+-   Generic project setup
+
+-   Write server-side renderer to improve loading speed
+
+-   Add workflow to automatically rebuild page when B edits the list of shops
+
+<br>
 
 
 
