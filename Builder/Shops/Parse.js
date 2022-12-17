@@ -34,6 +34,7 @@ export default function parse ( data ){
     Tags ??= [];
 
     return {
+        onEtsy : 'Etsy' in data ,
         name : Name ,
         folk : Folk ,
         tags : Tags ,
