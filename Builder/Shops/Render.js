@@ -17,6 +17,18 @@ export default function render ( shop ){
     if(shop.onEtsy)
         indicators.push(`<div class = Etsy title = 'This is an Etsy.com store'></div>`);
 
+    indicators.push('<div></div>');
+
+    if(folk.length){
+
+        const tribes = folk
+            .map((tribe) => `<div>${ tribe }</div>`)
+            .join('');
+
+        indicators.push(`<div class = Tribes>${ tribes }</div>`)
+    }
+
+
     const wares = tags
         .map((tag) => `<div class = '${ tag.replaceAll(' ','-') }'></div>`)
         .join('');
@@ -24,7 +36,7 @@ export default function render ( shop ){
     const items = [
         h3(name) ,
         `<div class = Wares>${ wares }</div>` ,
-        ... indicators
+        `<div>${ indicators.join('') }</div>`
     ]
 
     const content = items

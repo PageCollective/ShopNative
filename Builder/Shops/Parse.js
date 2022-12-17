@@ -19,10 +19,11 @@ export default function parse ( data ){
 
     let { Folk } = data;
 
+    Folk ??= [];
+
     if( ! isArray(Folk) )
         Folk = [ Folk ];
 
-    Folk ??= [];
 
 
     const link = linkFrom(data);

@@ -56,3 +56,20 @@
     align-items : center ;
     display : grid ;
 }
+
+
+#Shops > a > div:last-child {
+
+    justify-content: flex-end;
+    align-items : flex-end ;
+    flex-wrap : nowrap ;
+    display : flex ;
+
+    margin-top : 0.5rem ;
+}
+
+#Shops > a > div:last-child > div:not(.Etsy):empty {
+
+    flex-grow : 1 ;
+    width : 100% ;
+}
