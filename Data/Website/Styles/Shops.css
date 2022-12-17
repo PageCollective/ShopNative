@@ -60,7 +60,7 @@
 }
 
 
-#Shops > a > div:last-child {
+#Shops > a > div:not(.Wares):last-child {
 
     justify-content: flex-end;
     align-items : flex-end ;
@@ -70,7 +70,7 @@
     margin-top : 0.5rem ;
 }
 
-#Shops > a > div:last-child > div:not(.Etsy):empty {
+#Shops > a > div:not(.Wares):last-child > div:not(.Etsy):empty {
 
     flex-grow : 1 ;
     width : 100% ;

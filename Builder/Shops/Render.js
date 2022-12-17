@@ -35,9 +35,11 @@ export default function render ( shop ){
 
     const items = [
         h3(name) ,
-        `<div class = Wares>${ wares }</div>` ,
-        `<div>${ indicators.join('') }</div>`
+        `<div class = Wares>${ wares }</div>`
     ]
+
+    if(indicators.length > 1)
+        items.push(`<div>${ indicators.join('') }</div>`)
 
     const content = items
         .join('');
