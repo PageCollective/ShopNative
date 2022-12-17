@@ -6,6 +6,11 @@
 <br>
 <br>
 
+Current prototype: https://pagecollective.github.io/ShopNative/
+
+<br>
+<br>
+
 ## Needed Resources
 
 -   B needs to create a GitHub account
