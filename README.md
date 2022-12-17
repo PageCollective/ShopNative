@@ -34,7 +34,7 @@
 
 ## Steps
 
--   [ ] Export shop data from **[Google Sheets]** to YAML
+-   [x] Export shop data from **[Google Sheets]** to YAML
 
 -   [ ] Generic project setup
 
