@@ -43,17 +43,19 @@ Current prototype: https://pagecollective.github.io/ShopNative/
 
 -   [x] Basic project setup
 
--   [ ] Generating shop previews
+-   [x] Generating shop previews
 
     - [x] Title / Link
     
     - [x] Tags
     
-    - [ ] Tribe
+    - [x] Tribe
     
     - [x] Etsy Indicator
     
 -   [ ] Add workflow to automatically rebuild page when B edits the list of shops
+
+-   [ ] Design / find icons for every tribe / category
 
 <br>
 <br>
