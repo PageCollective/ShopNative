@@ -1,7 +1,7 @@
 
 
 const a = ( content , link ) =>
-    `<a href = '${ link }'>${ content }</a>`
+    `<a href = '${ link }' target = _blank >${ content }</a>`
 
 const h3 = ( title ) =>
     `<h3>${ title }</h3>`
