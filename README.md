@@ -36,7 +36,7 @@
 
 -   [x] Export shop data from **[Google Sheets]** to YAML
 
--   [ ] Generic project setup
+-   [x] Generic project setup
 
 -   [ ] Write server-side renderer to improve loading speed
 
