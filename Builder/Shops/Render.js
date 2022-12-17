@@ -18,7 +18,8 @@ export default function render ( shop ){
 
     const items = [
         h3(name) ,
-        `<div class = Wares>${ wares }</div>`
+        `<div class = Wares>${ wares }</div>` ,
+        `<div class = Etsy title = 'This is an Etsy.com store'></div>`
     ]
 
     const content = items

@@ -2,7 +2,8 @@
     "importMap" : "Imports.json" ,
 
     "tasks" : {
-        "build" : "deno run --watch=Builder,Data --unstable --allow-read=.,Data,Website,$HOME/.cache/deno/npm --allow-write=Website --allow-env=UGLIFY_BUG_REPORT,HTTP_PROXY,http_proxy Builder/App.js" ,
+        "develop" : "deno run --watch=Builder,Data --unstable --allow-read=.,Data,Website,$HOME/.cache/deno/npm --allow-write=Website --allow-env=UGLIFY_BUG_REPORT,HTTP_PROXY,http_proxy Builder/App.js" ,
+        "build" : "deno run --unstable --allow-read=.,Data,Website,$HOME/.cache/deno/npm --allow-write=Website --allow-env=UGLIFY_BUG_REPORT,HTTP_PROXY,http_proxy Builder/App.js" ,
         "host" : "file_server Website"
     }
 }

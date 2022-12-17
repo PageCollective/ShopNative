@@ -1,0 +1,30 @@
+
+.Etsy {
+
+    aspect-ratio : 1 ;
+    padding : 0.8rem ;
+    width : 1rem ;
+
+    background : url(./Images/Etsy.svg) ;
+
+    background-position : center ;
+    background-repeat : no-repeat ;
+    background-color : #f16521 ;
+    background-size : 0.9rem ;
+
+    border-radius : 0.25rem ;
+
+    filter : drop-shadow( 1px 1px 1px #00000022 ) ;
+
+    opacity : 0.7 ;
+    cursor : help ;
+
+
+    transition : opacity 0.2s ;
+}
+
+.Etsy:hover {
+
+    opacity : 1 ;
+
+}
