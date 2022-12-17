@@ -31,26 +31,6 @@
     display : grid ;
 }
 
-.Wares > div::after {
-
-    border-radius : 1rem ;
-    background : linear-gradient( 135deg ,
-        rgba( 255 , 255 , 255 , 0.1 )   0% ,
-        rgba( 255 , 255 , 255 , 0.0 )  50% ,
-        rgba( 255 , 255 , 255 , 0.1 ) 100% );
-
-    position : absolute ;
-
-    height : 100% ;
-    width : 100% ;
-    left : 50% ;
-    top : 50% ;
-
-    transform : translate(-50%,-50%) ;
-
-    content : '' ;
-}
-
 .Wares > div::before {
 
     white-space : break-spaces ;
