@@ -1,5 +1,5 @@
 
-name : Build Website
+name : Deploying Website
 
 on :
     workflow_dispatch :
