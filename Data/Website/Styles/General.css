@@ -6,10 +6,10 @@
     padding : 0 ;
     border : none ;
     margin : 0 ;
-    
+
     color : var(--Font-Normal) ;
     font-family : sans-serif ;
-    
+
 }
 
 html {
@@ -24,4 +24,17 @@ body {
 
     overflow-x : hidden;
     overflow-y : scroll;
+
+    flex-direction : column ;
+    display : flex ;
+
+    gap : 1rem ;
+}
+
+h1 {
+
+    text-align : center ;
+    font-size : 3rem ;
+
+    padding : 2rem ;
 }
