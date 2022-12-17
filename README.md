@@ -53,7 +53,7 @@ Current prototype: https://pagecollective.github.io/ShopNative/
     
     - [x] Etsy Indicator
     
--   [ ] Add workflow to automatically rebuild page when B edits the list of shops
+-   [x] Add workflow to automatically rebuild page when B edits the list of shops
 
 -   [ ] Design / find icons for every tribe / category
 
