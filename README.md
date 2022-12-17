@@ -57,6 +57,16 @@ Current prototype: https://pagecollective.github.io/ShopNative/
 
 -   [ ] Design / find icons for every tribe / category
 
+-   [ ] Search ( offline search functionality )
+
+    - [ ] Searching by store name
+    
+    - [ ] Searching by tag / category
+    
+    - [ ] Searching by tribe
+    
+    - [ ] Searching by is (not) an Etsy store
+
 <br>
 <br>
 
