@@ -1,0 +1,61 @@
+
+
+.Beadwork::before { content : 'Beadwork' ; }
+.Beadwork { background-color : #d2ca6f !important ; }
+
+.Quillwork::before { content : 'Quillwork' ; }
+.Quillwork { background-color : #d15364 !important ; }
+
+.Apparel::before { content : 'Apparel' ; }
+.Apparel { background-color : #d3c3af !important ; }
+
+.Jewelry::before { content : 'Jewelry' ; }
+.Jewelry { background-color : #9bd3c2 !important ; }
+
+.Baby-Moccs::before { content : 'Baby-Moccs' ; }
+.Baby-Moccs { background-color : #c1af85 !important ; }
+
+.Moccs::before { content : 'Moccs' ; }
+.Moccs { background-color : #c1af85 !important ; }
+
+.Bags::before { content : 'Bags' ; }
+.Bags { background-color : #a98755 !important ; }
+
+.Carvings::before { content : 'Carvings' ; }
+.Carvings { background-color : #815e34 !important ; }
+
+.Pottery::before { content : 'Pottery' ; }
+.Pottery { background-color : #ddaf73 !important ; }
+
+.Supplies::before { content : 'Supplies' ; }
+.Supplies { background-color : #99763c !important ; }
+
+.Regalia::before { content : 'Regalia' ; }
+.Regalia { background-color : #727272 !important ; }
+
+.Art::before { content : 'Art' ; }
+.Art { background-color : #62b1d7 !important ; }
+
+.Stickers::before { content : 'Stickers' ; }
+.Stickers { background-color : #fdfdfd !important ; color : var(--Font-Normal) !important ; }
+
+.Baskets::before { content : 'Baskets' ; }
+.Baskets { background-color : #df8d45 !important ; }
+
+.Mitts::before { content : 'Mitts' ; }
+.Mitts { background-color : #cca54e !important ; }
+
+.Buttons::before { content : 'Buttons' ; }
+.Buttons { background-color : #928c7e !important ; }
+
+.Pins::before { content : 'Pins' ; }
+.Pins { background-color : #89b4ad !important ; }
+
+.Homegoods::before { content : 'Homegoods' ; }
+.Homegoods { background-color : #d1889c !important ; }
+
+.Medicine-Bags::before { content : 'Medicine Bags' ; }
+.Medicine-Bags { background-color : #a98755 !important ; }
+
+.Stickball-Equipment::before { content : 'Stickball Equipment' ; }
+.Stickball-Equipment { background-color : #c8b8a8 !important ; }

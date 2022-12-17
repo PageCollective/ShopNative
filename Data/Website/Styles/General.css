@@ -1,0 +1,27 @@
+
+* {
+    text-decoration : none ;
+    box-sizing : border-box ;
+    outline : none ;
+    padding : 0 ;
+    border : none ;
+    margin : 0 ;
+    
+    color : var(--Font-Normal) ;
+    font-family : sans-serif ;
+    
+}
+
+html {
+    background-color : white ;
+}
+
+body {
+
+    min-height : 100vh ;
+    max-height : 100vh ;
+    min-width : 100vw ;
+
+    overflow-x : hidden;
+    overflow-y : scroll;
+}

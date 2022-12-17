@@ -1,0 +1,43 @@
+
+* {
+    scrollbar-width : none ;
+}
+
+*::-webkit-scrollbar {
+    display : none ;
+}
+
+.Scrollbar {
+
+    overflow-y : scroll ;
+
+    scrollbar-width : thin ;
+    scrollbar-color :
+        var(--Scrollbar-Thumb)
+        var(--Scrollbar-Track) ;
+}
+
+.Scrollbar::-webkit-scrollbar {
+
+    display : block ;
+
+    min-width : 0.8rem ;
+    width : 1rem ;
+}
+
+.Scrollbar::-webkit-scrollbar-thumb {
+
+    background : var(--Scrollbar-Thumb) ;
+    border-radius : 1rem ;
+}
+
+.Scrollbar::-webkit-scrollbar-thumb:hover {
+    background : var(--Scrollbar-Drag) ;
+}
+
+.Scrollbar::-webkit-scrollbar-track {
+
+    background : var(--Scrollbar-Track) ;
+
+    -webkit-box-shadow : inset 0 0 2px rgb(0 0 0 / 20%) ;
+}

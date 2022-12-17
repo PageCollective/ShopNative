@@ -20,3 +20,7 @@
     
     src : url( ../Fonts/Hubballi.woff2 ) format('woff2') ;
 }
+
+.personal {
+    font-family : 'Hubballi' ;
+}

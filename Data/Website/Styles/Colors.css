@@ -1,0 +1,14 @@
+
+:root {
+
+    --Font-Normal : #3d556c ;
+
+    --Back-Lighter : #f7f7f7;
+    --Back-Shade : #e9e9e9 ;
+
+    --Border-Normal : #cddbe9 ;
+
+    --Scrollbar-Thumb : var(--Border-Normal) ;
+    --Scrollbar-Track : var(--Back-Shade) ;
+    --Scrollbar-Drag : #85a3c1 ;
+}

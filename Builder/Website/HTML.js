@@ -1,6 +1,7 @@
 
 import { html as optimize } from '../Optimize.js'
 import { Template , Index } from 'Paths'
+import renderShops from '../Shops/mod.js'
 
 
 const { writeTextFile , readTextFile } = Deno;
@@ -8,8 +9,8 @@ const { writeTextFile , readTextFile } = Deno;
 
 export default async function build (){
 
-    let content = '';
-
+    const content =
+        await renderShops();
 
     await buildTemplate(content);
 }

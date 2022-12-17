@@ -36,10 +36,18 @@
 
 -   [x] Export shop data from **[Google Sheets]** to YAML
 
--   [x] Generic project setup
+-   [x] Basic project setup
 
--   [ ] Write server-side renderer to improve loading speed
+-   [ ] Generating shop previews
 
+    - [x] Title / Link
+    
+    - [x] Tags
+    
+    - [ ] Tribe
+    
+    - [ ] Etsy Indicator
+    
 -   [ ] Add workflow to automatically rebuild page when B edits the list of shops
 
 <br>
