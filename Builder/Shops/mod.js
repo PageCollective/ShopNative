@@ -29,5 +29,5 @@ export default async function (){
         .map(render)
         .join('');
 
-    return `<div id = Shops class = Scrollbar >${ items }</div>`;
+    return `<div id = Shops >${ items }</div>`;
 }

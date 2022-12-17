@@ -20,12 +20,15 @@ body {
 
     min-height : 100vh ;
     max-height : 100vh ;
-    min-width : 100vw ;
+
+    min-width : calc(100vw - 1rem) ;
+    max-width : calc(100vw - 1rem) ;
 
     overflow-x : hidden;
     overflow-y : scroll;
 
     flex-direction : column ;
+    flex-wrap : nowrap ;
     display : flex ;
 
     gap : 1rem ;
