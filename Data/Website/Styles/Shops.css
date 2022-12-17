@@ -46,8 +46,9 @@
     filter : drop-shadow( 1px 1px 1px #59738d );
 }
 
-#Shops > a > h3 {
+#Shops > a > div:first-child {
 
+    font-weight : bold ;
     text-align : center ;
     font-size : 1.5rem ;
 
